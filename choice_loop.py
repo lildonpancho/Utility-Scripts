@@ -1,12 +1,12 @@
 def choice_loop(choice_prompt, options_list):
-    """Gets the users" choice for service/model to pull.
+    """Gets the users' choice.
 
     Args:
-        choice_prompt (str): Asks the user what service/model they would like to use.
+        choice_prompt (str): Asks the user to choose from a list of options.
         options_list (list): A list of options for the user to choose from.
 
     Returns:
-        str: The service or model chosen by the user.
+        str: User choice.
     """
     while True:
         print(choice_prompt)
