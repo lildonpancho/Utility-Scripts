@@ -1,4 +1,4 @@
-#/usr/bin/env python3
+!#/usr/bin/env python3
 
 def choice_loop(choice_prompt, options_list):
     """Gets the users' choice.
